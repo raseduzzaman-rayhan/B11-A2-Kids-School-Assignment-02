@@ -1,0 +1,126 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* About font */
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* NavBar Design */
+
+.nav-container {
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6.23%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.nav-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.nav-school-name {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav-section-titles ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.orange {
+    color: orange;
+}
+
+.sky-blue {
+    color: skyblue;
+}
+
+.paste-color {
+    color: #05D4DF;
+}
+
+.violet {
+    color: #5D58EF;
+}
+
+.navbar-btn {
+    text-align: right;
+}
+
+.contact-btn {
+    border-radius: 12px ;
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border: none;
+}
+
+/* Banner Design */
+
+.banner-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-content h1 {
+    line-height: 61px;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.banner-content p {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.enroll-btn {
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-image {
+    width: 468.61px;
+    height: 575px;
+}
