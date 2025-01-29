@@ -13,6 +13,19 @@
   font-style: normal;
 }
 
+/* Commonly Use CSS */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 /* NavBar Design */
 
 .nav-container {
@@ -124,3 +137,119 @@
     width: 468.61px;
     height: 575px;
 }
+
+/* Curriculum Section Design */
+
+.curriculum-section {
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.curriculum-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px;
+}
+
+.curriculum-container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.curriculum-boxes {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 28px;
+}
+
+.curriculum-box-1 {
+    gap: 33px;
+    height: 476.78px;
+    width: 367.8px;
+    background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
+    flex-direction: column;
+    border-radius: 12.5px;
+    box-shadow: 0 0 19.16px 0.64px #0000000D;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculum-box-2 {
+    gap: 33px;
+    height: 476.78px;
+    width: 367.8px;
+    background: linear-gradient(to bottom, #FFF4DC -6%, #FFFFFF 28%);
+    flex-direction: column;
+    gap: 33px;
+    border-radius: 12.5px;
+    box-shadow: 0 0 19.16px 0.64px #0000000D;
+}
+
+.curriculum-box-3 {
+    gap: 33px;
+    height: 476.78px;
+    width: 367.8px;
+    background: linear-gradient(to bottom, #EEE1FF -6%, #FFFFFF 28%);
+    flex-direction: column;
+    gap: 33px;
+    border-radius: 12.5px;
+    box-shadow: 0 0 19.16px 0.64px #0000000D;
+}
+
+
+.kinder {
+    font-weight: bold;
+    font-size: 24.52px;
+    text-align: center;
+}
+
+.box-inner-description {
+    font-weight: 500;
+    font-size: 15.09px;
+    text-align: center;
+}
+
+.read-more-1 {
+    color: #64C8FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    text-align: center;
+}
+
+.read-more-2 {
+    color: #F0AA00;
+    font-weight: bold;
+    font-size: 15.09px;
+    text-align: center;
+}
+
+.read-more-3 {
+    color: #8700FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    text-align: center;
+}
+
+.less-greater .less, .greater {
+    background-color: #FEA301;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.less span, .greater span {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
